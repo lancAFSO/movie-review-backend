@@ -1,0 +1,152 @@
+.movie-detail {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-top: 24px;
+  background: white;
+  padding: 24px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.detail-poster {
+  width: 300px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.detail-content {
+  flex: 1;
+  min-width: 250px;
+}
+
+.detail-title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.detail-description {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 16px;
+}
+
+.detail-meta {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+/* Reviews Section */
+.reviews {
+  margin-top: 32px;
+  padding-top: 16px;
+  border-top: 1px solid #ccc;
+}
+
+.review-item {
+  background: #f4f4f4;
+  padding: 16px;
+  border-radius: 10px;
+  margin-bottom: 16px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  transition: background 0.3s ease;
+}
+
+.review-item strong {
+  font-weight: 600;
+  color: #2563eb;
+}
+
+.review-item p {
+  margin: 6px 0;
+  line-height: 1.5;
+}
+
+.review-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+.review-actions button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.3s ease;
+}
+
+.review-actions button:hover {
+  background: #1e40af;
+}
+
+/* Add Review Section */
+.add-review {
+  margin-top: 32px;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.add-review h4 {
+  margin-bottom: 12px;
+  font-size: 18px;
+}
+
+.add-review label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.add-review select,
+.add-review textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.add-review button {
+  align-self: flex-start;
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.3s ease;
+}
+
+.add-review button:hover {
+  background: #1e40af;
+}
+
+.review-history {
+  display: block;
+  margin-top: 6px;
+  font-size: 12px;
+  color: #777;
+  font-style: italic;
+}
+.dark .review-history {
+  color: #aaa;
+}
+
+
+.login-prompt {
+  margin-top: 24px;
+  font-style: italic;
+  color: #666;
+}

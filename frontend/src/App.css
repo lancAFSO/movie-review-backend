@@ -1,0 +1,183 @@
+/* Existing styles */
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* 🌞 Light Mode Defaults */
+body {
+  background: #f9f9f9;
+  color: #111;
+  font-family: system-ui, sans-serif;
+  margin: 0;
+  padding: 0;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* 🌙 Dark Mode Overrides */
+.dark body {
+  background: #111;
+  color: #eee;
+}
+
+/* Example component overrides */
+.dark .card {
+  background: #1a1a1a;
+  color: #eee;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(255,255,255,0.05);
+}
+
+.dark .read-the-docs {
+  color: #aaa;
+}
+
+/* 🔥 Extra dark mode support for your app */
+
+/* Movies page container */
+.movies-container {
+  background: #f9f9f9;
+  color: #111;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+.dark .movies-container {
+  background: #111;
+  color: #eee;
+}
+
+/* Search bar */
+.search-bar {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.search-input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+.search-button {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  background: #2563eb;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+.search-button:hover {
+  background: #1e40af;
+}
+.dark .search-input {
+  background: #222;
+  border: 1px solid #555;
+  color: #eee;
+}
+.dark .search-button {
+  background: #4f9efc;
+}
+.dark .search-button:hover {
+  background: #2563eb;
+}
+
+/* Movie cards */
+.movie-card {
+  background: white;
+  color: #111;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: background 0.3s ease, color 0.3s ease;
+}
+.dark .movie-card {
+  background: #1a1a1a;
+  color: #eee;
+}
+
+/* Movie detail page */
+.movie-detail {
+  background: #f9f9f9;
+  color: #111;
+  padding: 20px;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+.dark .movie-detail {
+  background: #111;
+  color: #eee;
+}
+
+.detail-content {
+  background: white;
+  color: #111;
+  padding: 24px;
+  border-radius: 10px;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+.dark .detail-content {
+  background: #1a1a1a;
+  color: #eee;
+}
+
+/* Reviews */
+.review-item {
+  background: #f1f1f1;
+  padding: 12px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+.dark .review-item {
+  background: #222;
+  color: #eee;
+}
+
+/* Auth forms */
+.auth-container {
+  background: white;
+  color: #111;
+  padding: 24px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: background 0.3s ease, color 0.3s ease;
+}
+.dark .auth-container {
+  background: #1a1a1a;
+  color: #eee;
+}

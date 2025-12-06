@@ -1,0 +1,27 @@
+.review-history-page {
+  padding: 20px;
+}
+.review-history-item {
+  display: flex;
+  gap: 12px;
+  background: #f9f9f9;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.review-history-item img.history-poster {
+  width: 60px;
+  border-radius: 6px;
+}
+.review-history-item small {
+  color: #777;
+  font-size: 12px;
+}
+.dark .review-history-item {
+  background: #1a1a1a;
+  color: #eee;
+}
+.dark .review-history-item small {
+  color: #aaa;
+}
